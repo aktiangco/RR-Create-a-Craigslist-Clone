@@ -2,3 +2,12 @@
 You will be building a light craigslist clone!
 
 Don't worry, there doesn't need to be a full suite of functionality. We're just going to try and recreate an image for now.
+
+### Componets
+- App
+-- Searchbar
+-- Directory
+-- Gallery
+--- Posting
+-- Sidebar
+--- Help
