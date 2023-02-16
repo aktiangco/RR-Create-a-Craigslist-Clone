@@ -5,9 +5,9 @@ Don't worry, there doesn't need to be a full suite of functionality. We're just 
 
 ### Componets
 - App
--- Searchbar
--- Directory
--- Gallery
---- Posting
--- Sidebar
---- Help
+  - Searchbar
+  - Directory
+  - Gallery
+    - Posting
+  - Sidebar
+    - Help
