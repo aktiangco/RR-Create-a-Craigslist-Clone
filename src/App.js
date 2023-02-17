@@ -1,14 +1,14 @@
 // Import data
-
+import {postings} from'./postings'
 // Import components
 import './App.css';
-import Searchbar from './Searchbar'
-import Directory from './Directory'
-import Gallery from './Gallery'
-import Sidebar from './Sidebar'
+import Searchbar from './components/Searchbar'
+import Directory from './components/Directory'
+import Gallery from './components/Gallery'
+import Sidebar from './components/Sidebar'
 
 
-function App(){
+const App = () => {
   return (
     <div>
       <h1>Craigslist</h1>
@@ -16,8 +16,8 @@ function App(){
         {/* Your content will go here! */}
         <Searchbar />
         <Directory/>
-        <Gallery />       
-        <Sidebar/>
+        <Gallery postings={postings} />       
+        <Sidebar />
       </div>
     </div>
   );

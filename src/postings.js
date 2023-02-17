@@ -24,3 +24,4 @@ export const postings = [
         imageURL: '/assets/dirty_dancing_vhs.jpeg'
     }
 ]
+export default postings
