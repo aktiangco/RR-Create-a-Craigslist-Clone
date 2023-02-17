@@ -7,7 +7,7 @@ const craigPost = require('../postings')
 
 const Gallery = () => {
     return (
-        <div>           
+        <div className="gallery">           
             {
                 // creating a map
                 craigPost.postings.map((data, i) => {

@@ -1,17 +1,19 @@
-import React from 'react';
+import Help from './Help'
 
-function Sidebar() {
+const Sidebar = (props) => {
     return (
-        <div>
-        <h1>Sidebar</h1>
-        <Help />
+        <div className="sidebar">
+            <h3>Listings</h3>
+            <div>
+                <ul>
+                    <li className="li">all</li>
+                    <li className="li">owner</li>
+                    <li className="li">dealer</li>
+                </ul>
+            </div>
+            <p>Buy and Sell your crap here, cause everyone want crap from other people.</p>
+            <Help />
         </div>
-    )
-}
-
-const Help = () => {
-    return (
-        <h2>Help</h2>
     )
 }
 

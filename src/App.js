@@ -14,10 +14,10 @@ const App = () => {
       <h1>Craigslist</h1>
       <div className="App">
         {/* Your content will go here! */}
-        <Searchbar />
+        <Searchbar/>
         <Directory/>
-        <Gallery postings={postings} />       
-        <Sidebar />
+        <Gallery postings={postings}/>       
+        <Sidebar/>
       </div>
     </div>
   );

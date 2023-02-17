@@ -48,3 +48,9 @@ img {
   grid-area: sidebar;
   border: 1px solid black;
 }
+.li {
+  display : 'inline';
+  margin : '2px';
+  padding : '1px';
+  border : '1px solid black';
+}

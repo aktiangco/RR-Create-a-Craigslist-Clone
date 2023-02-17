@@ -1,8 +1,11 @@
 import React from 'react';
 
-function Directory() {
+function Directory(props) {
     return (
-      <h1>Directory</h1>
+      <div className="directory">
+        <h1>Directory</h1>
+      </div>
+      
     )
 }
   
